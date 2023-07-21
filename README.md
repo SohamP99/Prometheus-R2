@@ -39,10 +39,6 @@ This folder contains the HTML templates used for the web app's pages.
 
 The main Flask application file that defines the routes and handles user authentication. It connects to the SQLite database and manages user login and signup functionality.
 
-### `create_database.py`
-
-A Python script to create the `database.db` file and the 'users' table in the SQLite database. This script sets up the initial database structure for the web app.
-
 ### `database.db`
 
 The SQLite database file where user information is stored. The 'users' table contains columns for `id`, `email`, `username`, and `password`.
